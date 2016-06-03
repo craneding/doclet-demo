@@ -5,6 +5,11 @@ package com.dinghz.doclet.demo;
  */
 public interface IService {
 
-    public Response doService(Request request);
+    /**
+     * 调用服务
+     * #### 标题1
+     * #### 标题2
+     */
+    Response doService(Request request);
 
 }

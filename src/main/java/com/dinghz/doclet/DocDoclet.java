@@ -36,7 +36,8 @@ public class DocDoclet {
             for (int i1 = 0; i1 < classDoc.methods().length; i1++) {
                 MethodDoc methodDoc = classDoc.methods()[i1];
 
-                println("{}: {}", i1, methodDoc);
+                println("{}: {} {}", i1, methodDoc);
+                println("doc:{}", methodDoc.getRawCommentText());
             }
         }
 
